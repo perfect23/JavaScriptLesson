@@ -65,19 +65,20 @@
 // console.log(result);
 // const answer1 = prompt("Вам есть 18?", "18"); //введенные данные сохраняются в виде строк
 // const answer = +prompt("Сколько тебе лет?","31"); //сохранеяются цифрами
+// console.log(answer1);
 // console.log(typeof(answer1));
 // console.log(typeof(answer));
 // console.log(answer1 + 13);
 // console.log(answer + 13);
 
-// const answers = [];
+const answers = [];
 
-// answers[0] = prompt('Как ваше имя?', '');
-// answers[1] = prompt('Как ваша фамилия?', '');
-// answers[2] = prompt('Сколько вам лет?', '');
+answers[0] = prompt('Как ваше имя?', '');
+answers[1] = prompt('Как ваша фамилия?', '');
+answers[2] = prompt('Сколько вам лет?', '');
 
-// document.write(answers);
-// console.log(typeof(answers));
+document.write(answers);
+console.log(typeof(answers));
 
 // Интерполяция
 
@@ -94,37 +95,37 @@
 
 // конкатенация 
 
- console.log('arr' + " - object");
+//  console.log('arr' + " - object");
 
- console.log ( 4 + +" - object"); // NaN
+//  console.log ( 4 + +" - object"); // NaN
  
- console.log ( 4 + +"5"); // преобразование строки в число
+//  console.log ( 4 + +"5"); // преобразование строки в число c унарным плюсом
 
- let incr = 10;
+//  let incr = 10;
   
- let decr = 10;
+//  let decr = 10;
 
-//  incr++;
-//  decr--;
+// //  incr++;
+// //  decr--;
 
- console.log(++incr);//префиксаная форма
- console.log(--decr);
+//  console.log(++incr);//префиксаная форма
+//  console.log(--decr);
 
- console.log(5%2);//остаток
+//  console.log(5%2);//остаток
 
- console.log(2*4 == 8);//true
- console.log(2*4 == '8');//true
- console.log(2*4 === '8');//false строгое равенство (число равно числу)
+//  console.log(2*4 == 8);//true
+//  console.log(2*4 == '8');//true
+//  console.log(2*4 === '8');//false строгое равенство (число равно числу)
 
- //&& ||
+//  //&& ||
 
- const isChecked = true;
- const isClose = false;
+//  const isChecked = true;
+//  const isClose = false;
 
- console.log( isChecked && isClose);
- console.log(isChecked || isClose);
+//  console.log( isChecked && isClose);
+//  console.log(isChecked || isClose);
 
- //!== cтрогое сравнение по типу
- console.log('operator - '+( 2*2 !=='4'));
+//  //!== cтрогое сравнение по типу
+//  console.log('operator - '+( 2*2 !=='4'));
 
  
